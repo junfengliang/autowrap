@@ -15,7 +15,8 @@
     var autoWrap = new AutoWrap()
    
     document.getElementById("app").innerHTML = autoWrap.wrap(text,180,"14px Arial").join("<br>");
-    
+    console.log(autoWrap.wrap(text,50).join("\n"))
+
 })()
 
 </script>

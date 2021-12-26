@@ -39,8 +39,10 @@ var AutoWrap;
 
             while(cur<line.length){                
                 let word = "" + text[cur++];
-                while(cur < text.length && text[cur]!=' ' && text.charCodeAt(cur)<256) {                        
-                    word += text[cur++];
+                if(word[0]!=' ' && word.charCodeAt(0)<256){
+                    while(cur < text.length && text[cur]!=' ' && text.charCodeAt(cur)<256) {                        
+                        word += text[cur++];
+                    }
                 }
                 var wordWidth = widthFunc(word,font);
                 let tempLineWidth = widthFunc(tmpLine,font);
