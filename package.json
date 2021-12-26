@@ -1,6 +1,6 @@
 {
     "name": "autowrap",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Autowrap is an open source javascript module to handle text wrap. It support both chinese and english.",
     "main": "index.js",
     "scripts": {
