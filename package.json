@@ -1,0 +1,22 @@
+{
+    "name": "autowrap",
+    "version": "0.2.0",
+    "description": "Autowrap is an open source javascript module to handle text wrap. It support both chinese and english.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/junfengliang/autowrap.git"
+    },
+    "keywords": [
+      "textwrapper"
+    ],
+    "author": "junfengliang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/junfengliang/autowrap/issues"
+    },
+    "homepage": "https://github.com/junfengliang/autowrap#readme"
+}

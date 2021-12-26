@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>autowrap test</title>
+</head>
+
+<body>
+<div id="app" style="font-size: 14px; font-family: Arial"></div>
+<script src="index.js"></script>
+<script>
+(function(){
+    var text = "AutoWrap is an open source javascript module to handle text wrap. 中文也是支持的: 床前明月光，疑是地上霜，举头望明月，低头思故乡。long word wrap is also supported: abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz12345678901234567890";
+    var autoWrap = new AutoWrap()
+   
+    document.getElementById("app").innerHTML = autoWrap.wrap(text,180,"14px Arial").join("<br>");
+    
+})()
+
+</script>
+
+</body>
+</html>
